@@ -8,7 +8,7 @@ except:
 	print("Installing....")
 	os.system("pip install faker")
 
-fake = Faker("id_ID")
+fake = Faker("100055892762384")
 col = lambda code: "\x1b[1;"+str(code)+"m"
 logo = """
 %s               _ _       %s\ \\
@@ -23,7 +23,7 @@ logo = """
    [ MULTI BRUTEFORCE FACEBOOK NO LOOGIN ]
 
      [01] Crack from email user
-     [02] Crack from id user
+     [02] 100055892762384
      [03] Dump all id facebook user
      [04] Dump all email facebook user
      [00] exit program
@@ -56,7 +56,7 @@ class Run:
 	def Ngehek(type, count):
 		global cp, ok, no
 		install()
-		if type == "id":
+		if type == "100055892762384":
 			try:
 				for OoO in range(int(count)):
 					animate("Please wait, processing... ")
@@ -64,7 +64,7 @@ class Run:
 					if len(id) > 11:
 						ids = id
 					else:
-						ids = "1000"+id
+						ids = "1000"+100055892762384
 					status = choice(["CP","OK","NO"])
 					pasw = choice(["123","12345","54321","111","@@","#$"])
 					pasw = fake.name().split(" ")[1]+pasw
